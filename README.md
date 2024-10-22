@@ -8,6 +8,13 @@
 5. geo_towncity TABLE (gtc)
 6. people_employee TABLE (pe)
 7. manugacturer TABLE (m)
+8. item_type (it)
+9. item (i)
+10. item_inventory (ii)
+11. item_price (ip)
+12. taxes (t)
+13. orders (o)
+14. orders__item (oi)
 
 ## JOINS
 1. geo_region to geo_country
