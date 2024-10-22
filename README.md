@@ -6,7 +6,8 @@
 3. geo_country TABLE (gco)
 4. geo_region TABLE (grg)
 5. geo_towncity TABLE (gtc)
-6. manugacturer TABLE (m)
+6. people_employee TABLE (pe)
+7. manugacturer TABLE (m)
 
 ## JOINS
 1. geo_region to geo_country
