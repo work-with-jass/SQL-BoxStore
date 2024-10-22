@@ -1,4 +1,16 @@
 # SQL BoxStore
+Developed a relational OLAP database for a BoxStore, focusing on data analysis, reporting, and normalization principles. Working with multi-dimensional datasets and complex relationships has given me invaluable insights into creating scalable and efficient databases for business intelligence.
+
+## 💡 Key Learnings & Takeaways
+📊 OLAP Database Design: Built the system with an OLAP approach to enable powerful analytical queries. Focused on reporting and aggregation across dimensions like customers, products, and time.
+
+🔄 Data Normalization & Efficiency: Applied 3rd Normal Form (3NF) to reduce redundancy, streamline queries, and improve data integrity.
+
+🔗 Managing Many-to-Many Relationships: Implemented join tables to handle complex relationships between orders, items, and manufacturers.
+
+⚙️ Dynamic Tax Calculations: Created tax calculation views by cross-joining taxes with order dates to ensure accurate rates at the time of purchase.
+
+⚡ Performance Optimization: Balanced query performance with scalability to support large datasets and future data growth. Tuned queries to generate OLAP-style reports across multiple dimensions.
 
 ## Tables Created
 1. people TABLE (p)
@@ -46,3 +58,12 @@
 ## Data Normalization
 ![SQL_3](https://github.com/user-attachments/assets/dde9ad43-6498-42cb-b10c-516f69f51ca7)
 ![SQL_4](https://github.com/user-attachments/assets/e3f44909-a2f2-4eb1-be49-9680a042c35d)
+
+## 🛠 Tools & Technologies Used
+🔹 SQL Development: DBeaver Enterprise
+
+🔹 Database Design: [draw.io](draw.io)
+
+🔹 Database Platform: PostgreSQL
+
+🔹 Code & Version Control: GitHub
